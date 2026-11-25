@@ -1,0 +1,32 @@
+{
+  "name": "antigravity-desktop-file-actions",
+  "version": "0.3.0",
+  "description": "在 Antigravity 桌面端 (Antigravity 2.0) 对话窗口的文件链接/路径上直接右键：使用系统默认程序打开、在 Windows 资源管理器中显示、复制文件绝对路径。",
+  "main": "cli.js",
+  "license": "MIT",
+  "author": "zhongjiezhou123321-alt",
+  "keywords": [
+    "antigravity",
+    "electron",
+    "windows",
+    "context-menu",
+    "file-actions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhongjiezhou123321-alt/antigravity-desktop-file-actions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhongjiezhou123321-alt/antigravity-desktop-file-actions/issues"
+  },
+  "homepage": "https://github.com/zhongjiezhou123321-alt/antigravity-desktop-file-actions#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "install-patch": "node cli.js install",
+    "uninstall-patch": "node cli.js uninstall",
+    "status": "node cli.js status",
+    "test": "node test/run-tests.js"
+  }
+}
